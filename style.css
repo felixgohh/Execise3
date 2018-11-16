@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: orange;
+}
+
+#nav {
+    position: fixed;
+    z-index: 2;
+    background: white;
+    height: 100%;
+    width: 300px;
+}
+
+#nav #logo img {
+    margin-left: 20px; 
+    height: 250px;
+    width: 250px;
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+#nav ul li a{
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 50px; 
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 4em;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    color: orange;
+    font-weight: bolder;
+}
+
+#home,
+#about,
+#our-pizza {
+    position: relative;
+    margin-left: 300px;
+}
+
+#home {
+    background-image: url('img/pizza.jpg');
+    padding: 170px 200px;
+    background-size: cover;
+    opacity: 0.9;
+}
+#home h1 {
+    font-family: 'Ranga', cursive;    
+    font-size: 120px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin-bottom: 270px;
+    color: white;
+    font-weight: bold;
+}
+
+#home h2 {
+    font-family: 'Ranga', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+#about {
+    background: #000;
+    background-size: cover; 
+    height: 500px;
+}
+
+#about h1 {
+    font-family: 'Oxygen', sans-serif;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+
+#about p {
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#our-pizza {
+    text-align: center;
+
+}
+
+#our-pizza h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 50px;
+    padding-top: 90px;
+}
+
+#our-pizza #pizza1 img {
+    width: 400px;
+    height: 400px;
+}
+
+#our-pizza #pizza1 {
+    display: inline-block;
+    margin: 70px;
+    border: 10px double white;
+    border-width: thick;  
+}
+
+#our-pizza #pizza1 h2 {
+    font-family: 'Oxygen', sans-serif;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background: #000;
+    color: orange;
+}
+
+#our-pizza #pizza1 h3 {
+    font-family: 'Oxygen', sans-serif;
+    padding: 6px 0; 
+}
